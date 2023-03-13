@@ -1,0 +1,206 @@
+.wrapper-why{
+    padding: 5rem 0;
+}
+.wrapper-title__allpage-slogan{
+    text-align: center;
+    line-height: 1.4;
+}
+.wrapper-title__allpage-slogan>span{
+    font-size: 1.8rem;
+    color: var(--html-bg-website);
+    font-family: var(--rbt-bold),Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.wrapper-title__allpage-main{
+    text-align: center;
+    line-height: 1.4;
+}
+.wrapper-title__allpage-main>a>span{
+    font-size: 4rem;
+    font-family: var(--rbt-bold),Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.wrapper-title__allpage-des{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cursor-default{
+    cursor: default;
+}
+.wrapper-why__box-detail-des{
+    font-size: 1.8rem;
+    color: #000;
+    line-height: 1.4;
+    height: calc(18px * 4.2);
+    transition: all 0.2s;
+    visibility: hidden;
+    opacity: 0;
+}
+.wrapper-why__box-detail-title{
+    font-size: 2.3rem;
+    font-weight: normal;
+    line-height: 1.4;
+    max-height: calc(23px * 2.8);
+    text-align: center;
+}
+.wrapper-why__box-detail-title>span{
+    font-size: 2.3rem;
+    color: #000;
+    font-family: var(--rbt-bold),Arial, Helvetica, sans-serif;
+}
+.wrapper-why__box-detail{
+    padding-top: 5rem;
+}
+.wrapper-why__box-detail-des{
+    text-align: center;
+}
+.wrapper-why__box-img{
+    padding-right: 2.2rem;
+    position: relative;
+}
+.wrapper-why__box-img::before{
+    content: "";
+    position: absolute;
+    bottom: -2.2rem;
+    left: 2.2rem;
+    width: calc(100% - 2.2rem);
+    height: 100%;
+    background: url('../../../images/CHICKENPLUS/bg-taisao.png') no-repeat center center/cover;
+}
+.wrapper-why__box--middle{
+    transform: translateY(116px);
+}
+.wrapper-why__box{
+    transition: all 0.2s;
+}
+.wrapper-why__box:hover{
+    transform: translateY(-0.5rem);
+}
+.wrapper-why__box:hover .wrapper-why__box-detail-des{
+    opacity: 1;
+    visibility: visible;
+}
+
+.wrapper-why__box:hover .wrapper-why__box-detail-title>span{
+    color: var(--html-bg-website);
+}
+.wrapper-product__box-detail-price{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+.wrapper-product__box-detail-price>span,.wrapper-product__box-detail-price>del{
+    font-size: 1.8rem;
+}
+.wrapper-product__box-detail-price-new{
+    font-family: var(--rbt-medium),Arial, Helvetica, sans-serif;
+    color: #e00000;
+}
+.wrapper-product__box-detail-price{
+    margin: 2rem 0;
+}
+.wrapper-product__box-btn-default{
+    width: 100%;
+    padding: 1.4rem;
+    text-align: center;
+    user-select: none;
+    font-size: 1.3rem;
+    font-family: var(--rbt-medium),Arial, Helvetica, sans-serif;
+    display: block;
+    -webkit-transform: translateX(-50%) translate3d(0,50%,0);
+    -ms-transform: translateX(-50%) translate3d(0,50%,0);
+    transform: translateX(-50%) translate3d(0,50%,0);
+    
+}
+.wrapper-product__box-btn{
+    visibility: hidden;
+    overflow: hidden;
+}
+.wrapper-product__box-detail-title{
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 1.4;
+    max-height: calc(2.8 * 18px);
+    text-align: center;
+}
+.wrapper-product__box-detail-title>a{
+    font-family: var(--rbt-bold),Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    color: #606060;
+    transition: all 0.2s;
+}
+.wrapper-product__box-btn-default.btn-addcart{
+    background: var(--html-bg-website);
+    color: #fff;
+}
+.wrapper-product__box:hover .wrapper-product__box-btn{
+    visibility: visible;
+}
+.wrapper-product__box-btn-default.btn-addcart:hover{
+    background: var(--html-cl-website);
+}
+.wrapper-product__box-btn-default.btn-viewproduct{
+    background: #e1e1e1;
+    color: #000;
+}
+.wrapper-product__box-btn-default.btn-viewproduct:hover{
+    background: var(--html-bg-website);
+    color:#fff
+}
+.wrapper-product__box-img{
+    position: relative;
+}
+.wrapper-product__box-img::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 285px;
+    min-height: 235px;
+    top: -33px;
+    z-index: 1;
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    background: url(../../../images/CHICKENPLUS/brandhover.png) no-repeat;
+    opacity: 0;
+    -webkit-transform: rotate(-22.5deg) scale(.75) ;
+    -ms-transform: rotate(-22.5deg) scale(.75) ;
+    transform: rotate(-22.5deg) scale(.75) ;
+    -webkit-transition: opacity .2s ease-in-out,-webkit-transform .4s ease-in-out;
+    -o-transition: opacity .2s ease-in-out,transform .4s ease-in-out;
+    transition: opacity .2s ease-in-out,transform .4s ease-in-out;
+    transition: opacity .2s ease-in-out,transform .4s ease-in-out,-webkit-transform .4s ease-in-out;
+}
+.wrapper-product__box{
+    transition: all 0.2s;
+}
+.wrapper-product__box:hover .wrapper-product__box-img::before{
+    opacity: 1;
+    -webkit-transform: rotate(0) scale(1);
+    -ms-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+}
+.wrapper-product__box:hover .wrapper-product__box-btn-default.btn-addcart{
+    -webkit-animation: fadeInUp .3s forwards;
+    animation: fadeInUp .3s forwards;
+}
+.wrapper-product__box:hover .wrapper-product__box-btn-default.btn-viewproduct{
+    -webkit-animation: fadeInUp .4s forwards;
+    animation: fadeInUp .4s forwards;
+}
+
+.wrapper-product__box-detail{
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.wrapper-product__box:hover .wrapper-product__box-detail-title>a{
+    color: var(--html-bg-website);
+}
+.wrapper-product{
+    padding: 9rem 0;
+}
+.wrapper-product__box-img>a>img{
+    z-index: 2;
+}

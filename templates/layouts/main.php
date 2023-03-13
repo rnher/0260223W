@@ -1,0 +1,10 @@
+<?php include _layouts . "main/slider.php"; ?>
+<?php include _layouts . "main/about.php"; ?>
+<?php include _layouts . "main/introduce.php"; ?>
+<?php include _layouts . "main/service_intro.php"; ?>
+<?php include _layouts . "main/service.php"; ?>
+<?php include _layouts . "main/procedure.php"; ?>
+<?php include _layouts . "main/video.php"; ?>
+<?php include _layouts . "main/customer.php"; ?>
+<?php include _layouts . "main/formregis.php"; ?>
+<?php include _layouts . "main/news.php"; ?>
